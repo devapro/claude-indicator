@@ -1,0 +1,17 @@
+{
+  "name": "matrix-sender",
+  "version": "1.0.0",
+  "description": "Send patterns to ESP8266 Matrix Display via MQTT",
+  "main": "sender.js",
+  "scripts": {
+    "start": "node sender.js",
+    "crypto": "node crypto.js",
+    "crypto-detailed": "node crypto-detailed.js",
+    "cpu-usage": "node cpu-usage.js",
+    "claude-status": "node claude-status.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mqtt": "^5.3.5"
+  }
+}
